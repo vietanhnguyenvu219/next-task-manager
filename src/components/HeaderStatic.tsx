@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { STATIC_IMAGES } from '../app/lib/images'
+import { STATIC_IMAGES } from '@/lib/images'
 
 export default function HeaderStatic() {
   return (

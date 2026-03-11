@@ -1,6 +1,6 @@
 'use client'
 
-import { useLoading } from '../app/context/LoadingContext'
+import { useLoading } from '@/context/LoadingContext'
 
 export default function LoadingOverlay() {
   const { isLoading } = useLoading()

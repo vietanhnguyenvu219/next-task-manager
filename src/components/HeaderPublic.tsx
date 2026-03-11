@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { IMAGES } from '../app/lib/images'
+import { IMAGES } from '@/lib/images'
 
 export default function HeaderPublic() {
   return (

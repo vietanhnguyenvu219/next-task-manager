@@ -10,7 +10,7 @@ export const IMAGES = {
 
 // Static imports (place source images under `assets/`)
 // Static imports allow Next to read width/height metadata for `next/image`.
-import logoStatic from '../../assets/logo.svg'
+import logoStatic from '../assets/logo.svg'
 export const STATIC_IMAGES = {
   logo: logoStatic
 }

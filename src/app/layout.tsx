@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 import { Roboto } from 'next/font/google'
 import './globals.css'
-import { ThemeProvider } from './context/ThemeContext'
-import { LoadingProvider } from './context/LoadingContext'
+import { ThemeProvider } from '@/context/ThemeContext'
+import { LoadingProvider } from '@/context/LoadingContext'
 import LoadingOverlay from '../components/LoadingOverlay'
 
 const roboto = Roboto({
